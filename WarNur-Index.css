@@ -1,0 +1,388 @@
+*,
+html {
+  margin: 0;
+  padding: 0;
+}
+
+/* Style dasar */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #FFD1B0;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header dengan latar belakang gambar Sosis Bakar */
+.header-background {
+    background-image: url(https://www.baliekbis.com/wp-content/uploads/2020/12/unnamed.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: lightgray;
+    text-align: center;
+    padding-top: 150px;
+    padding-bottom: 250px ;
+}
+
+.container {
+    width: 900px;
+    margin: 20px auto;
+    background-color: bisque;
+    border:5px dotted rgb(145, 83, 83);
+}
+
+.header h1 {
+    font-size: 36px;
+}
+
+nav {
+    background-color: #333;
+}
+
+/* navbar start */
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.2rem 4%;
+    background-color: lightgray ;
+    border-bottom: 1px lightgray solid;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 99999;
+}
+
+.navbar .logo a{
+    margin-left: 2rem;
+    font-weight: 700;
+    color: black;
+    font-size: 1.4rem;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.navbar .logo a span{
+    color: #fff;
+}
+.navbar .logo{
+    background-color: grey;
+    background-image: url(https://i.pinimg.com/originals/59/3c/2d/593c2ddad79a51f4e09401bb52a46d08.png);
+    background-repeat: no-repeat;
+    background-size: 20%;
+    background-position: left;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    font-family: Arial, sans-serif; /* Mengubah font ke Arial */
+}
+
+.navbar .navbar-nav a{
+    display: inline-block ;
+    position: relative;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin: 1rem;
+    color: #193549;
+    font-weight: 600;
+    font-size: 0.8rem;
+    background: 2rem grey;
+    border-radius: 20px;
+    padding: 8px 10px;
+    text-decoration: none;
+}
+
+#menu{
+    display: none;
+}
+
+
+main {
+    padding: 20px;
+}
+
+/*Sidebar*/
+.sidenav {
+    width: 130px;
+    position: fixed;
+    z-index: 1;
+    top: 20px;
+    left: 10px;
+    background: #0da2e788;
+    overflow-x: hidden;
+    padding: 8px;
+    margin-top: 50px;
+  }
+  .main2 {
+    margin-left: 140px; /* Same width as the sidebar + left position in px */
+    font-size: 28px; /* Increased text to enable scrolling */
+    padding: 0px 10px;
+  }
+
+/* Aneka Frozen Food Bakaran dan berbagai macam minuman start */
+.subjudul h2{
+    margin: 8rem;
+    font-size: 50px;
+}
+
+.subjudul p{
+    margin: 2rem;
+    font-size: 20px;
+    text-align: center;
+}
+
+
+/* Aneka Makanan dan Minuman end */
+
+/* Menu */
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+  }
+  
+  /* Style the images inside the grid */
+  .column img {
+    opacity: 0.8; 
+    cursor: pointer; 
+    width: 100%;
+  }
+  
+  .column img:hover {
+    opacity: 1;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* The expanding image container */
+  .container {
+    position: relative;
+    display: none;
+  }
+  
+  /* Expanding image text */
+  #imgtext {
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    color: white;
+    font-size: 20px;
+  }
+  
+  /* Closable button inside the expanded image */
+  .closebtn {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    color: white;
+    font-size: 35px;
+    cursor: pointer;
+  }
+/*end of menu*/
+
+/*Artikel*/
+table, td {
+    margin: 5px;
+    padding: 5px;
+}
+h2{
+    font-family: georgia;
+    font-size: 30px;
+    text-align: center;
+    background-color: white;
+    color: rgb(43, 43, 148);
+}
+h3 {
+    font-size: 20px;
+    color: rgb(19, 30, 77);
+}
+p {
+    text-align: justify;
+    font-size: 15px;
+}
+a {
+    color: red;
+}
+
+/*Biodata Diri*/
+.container2 {
+    width: 900px;
+    margin: 20px auto;
+    background-color: bisque;
+    border:5px dotted rgb(145, 83, 83);
+}
+.container2 h1 {
+    background-color:burlywood;
+    color: brown;
+    text-align: center;
+}
+#pengantar{
+    background-color: burlywood;
+    padding: 50px;
+}
+
+.container2 h2 {
+    background-color:coral;
+    color: white;
+    text-align: center;
+}
+
+.container2 p {
+    padding: 20px;
+    text-align: justify;
+}
+
+  
+.ul,ol {
+    margin: 0;
+    padding: 0 0 0 20px;
+    list-style-type: none;
+  }
+  
+.li {
+    margin: 5px 0;
+    list-style-position: inside;
+    list-style-type: none;
+  }
+/*End biodata diri*/
+/*Contact*/
+.tengah {
+    display: flex;
+    position: relative;
+    margin-left: 43%;
+}
+/* laptop */
+@media screen and (max-width: 2000px) {
+    html{
+        font-size: 75%;
+    }
+}
+
+    #menu{
+        display: inline-block;
+        cursor: pointer;
+    }
+
+    .navbar{
+        padding: 1.8rem 4%;
+    }
+
+    .navbar .navbar-nav{
+        position: absolute;
+        top: 100%;
+        right: -100%;
+        background-color: #15222C;
+        width: 30rem;
+        height: 100vh;
+    }
+
+    .navbar .navbar-nav.active{
+        right: 0;
+        transition: 1s;
+    }
+
+    .navbar .navbar-nav a{
+        font-size: large;
+        color: #fff;
+        display: block;
+        margin: 1.4rem;
+    }
+
+    .navbar .navbar-nav a:hover{
+        color: black;
+        font-size: 1.6rem;
+    }
+
+    .navbar .navbar-nav a::after{
+        content: '';
+        display: block;
+        padding-bottom: 0.2rem;
+        border-bottom: 0.1rem solid black;
+        transform: scaleX(0);
+        transition: 0.2s linear;
+    }
+
+
+.footer {
+    background-color:lightgray;
+    padding-bottom: 6%;
+    text-align: center;
+    color:black;
+    padding: 4px;
+    font-family: Arial, sans-serif; /* Mengubah font ke Arial */
+}
+
+/*Slideshow Home*/
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+  }
+.mySlides img {
+    width: 100%;
+    height: auto;
+}
+  /* Hide the images by default */
+  .mySlides {
+    display: none;
+  }
+  .fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+
+/*Html Gallery*/
+.gallery {
+    border: 1px solid #ccc;
+  }
+  
+.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+.desc {
+    padding: 15px;
+    text-align: center;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+.responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+  }
+  
+  @media only screen and (max-width: 700px) {
+    .responsive {
+      width: 49.99999%;
+      margin: 6px 0;
+    }
+  }
+  
+  @media only screen and (max-width: 500px) {
+    .responsive {
+      width: 100%;
+    }
+  }
+  
+  .clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
